@@ -1,0 +1,19 @@
+{
+	"name": "targetdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsajay21demo_AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "output",
+				"container": "adfdemo"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

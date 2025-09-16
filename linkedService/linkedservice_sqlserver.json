@@ -1,0 +1,17 @@
+{
+	"name": "linkedservice_sqlserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "abcd.net",
+			"database": "devdb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "abcdefgh",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDdBREQyNjRCLTYxRTYtNDk1Qy1BMjBBLTNERjEzNkVFNUNFQl81MzdiYTA2My02M2FmLTRkY2EtOGMxZS0wM2YxM2UwY2IyZTkiDQp9"
+		}
+	}
+}

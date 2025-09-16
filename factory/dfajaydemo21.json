@@ -1,0 +1,9 @@
+{
+	"name": "dfajaydemo21",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "26d30f11-5c46-43d5-b42b-ce80f0d15b75",
+		"tenantId": "9ec7546b-1dca-4174-b06f-1174fcfb9274"
+	}
+}
