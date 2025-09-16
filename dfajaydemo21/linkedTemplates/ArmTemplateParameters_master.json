@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "dfajaydemo21"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"linkedservice_sqlserver_password": {
 			"value": ""
 		},

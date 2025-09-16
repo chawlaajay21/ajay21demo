@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "dfajaydemo21"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
 		"linkedservice_sqlserver_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'linkedservice_sqlserver'"
@@ -53,6 +57,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"linkedservice_sqlserver_password": {
 						"value": "[parameters('linkedservice_sqlserver_password')]"
