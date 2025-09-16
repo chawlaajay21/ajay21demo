@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfajaydemo21"
+		},
+		"linkedservice_sqlserver_password": {
+			"value": ""
+		},
+		"lsajay21demo_AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"linkedservice_sqlserver_properties_typeProperties_server": {
+			"value": "abcd.net"
+		},
+		"linkedservice_sqlserver_properties_typeProperties_database": {
+			"value": "devdb"
+		},
+		"linkedservice_sqlserver_properties_typeProperties_userName": {
+			"value": "abcdefgh"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
